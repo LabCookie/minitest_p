@@ -57,19 +57,43 @@ core.register_craftitem("mini_items:bread", {
 
 core.register_craftitem("mini_items:raw_meat", {
 	description = "Raw Meat",
-	inventory_image = mini_core.sheet('item',3,1),
+	inventory_image = mini_core.sheet('item',6,5),
 	on_use = core.item_eat(1),
 })
 
 core.register_craftitem("mini_items:cooked_meat", {
-	description = "Cooked Meat",
-	inventory_image = mini_core.sheet('item',4,1),
+	description = "Steak",
+	inventory_image = mini_core.sheet('item',7,5),
 	on_use = core.item_eat(5),
 })
 
 core.register_craftitem("mini_items:apple", {
 	description = "Apple",
 	inventory_image = mini_core.sheet('item',0,1),
+	on_use = core.item_eat(2),
+})
+
+core.register_craftitem("mini_items:raw_pork", {
+	description = "Raw Pork",
+	inventory_image = mini_core.sheet('item',7,6),
+	on_use = core.item_eat(2),
+})
+
+core.register_craftitem("mini_items:cooked_pork", {
+	description = "Cooked Pork",
+	inventory_image = mini_core.sheet('item',8,6),
+	on_use = core.item_eat(4),
+})
+
+core.register_craftitem("mini_items:bacon", {
+	description = "Bacon",
+	inventory_image = mini_core.sheet('item',0,2),
+	on_use = core.item_eat(4),
+})
+
+core.register_craftitem("mini_items:gold_apple", {
+	description = "Gold Apple",
+	inventory_image = mini_core.sheet('item',6,6),
 	on_use = core.item_eat(2),
 })
 
