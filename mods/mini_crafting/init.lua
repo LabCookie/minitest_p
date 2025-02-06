@@ -57,7 +57,7 @@ core.register_craft({
 })
 
 core.register_craft({
-	output = "mini_nodes:gold_apple",
+	output = "mini_items:gold_apple",
 	recipe = {
 		{"mini_items:gold_bar","mini_items:gold_bar","mini_items:gold_bar"},
 		{"mini_items:gold_bar","mini_items:apple","mini_items:gold_bar"},
