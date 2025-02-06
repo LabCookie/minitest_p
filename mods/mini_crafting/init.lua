@@ -41,6 +41,13 @@ core.register_craft({
 })
 
 core.register_craft({
+	output = "mini_items:bacon",
+	recipe = {
+		{"mini_items:cooked_pork","mini_items:cooked_pork","mini_items:cooked_pork"}
+	}
+})
+
+core.register_craft({
 	output = "mini_nodes:gravel",
 	recipe = {
 		{"mini_nodes:sand","mini_items:rock","mini_nodes:sand"},
